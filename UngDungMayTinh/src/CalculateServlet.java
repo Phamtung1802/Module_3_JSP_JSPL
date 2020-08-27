@@ -16,7 +16,7 @@ public class CalculateServlet extends HttpServlet {
 //        dispatcher.forward(request,response);
         String fullName = "John John";
 
-        request.setAttribute("name", fullName);
+        request.setAttribute("nameT", fullName);
 
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("calculate.jsp");
 

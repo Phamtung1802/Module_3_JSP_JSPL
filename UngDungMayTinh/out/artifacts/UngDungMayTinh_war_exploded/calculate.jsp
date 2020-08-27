@@ -12,6 +12,6 @@
     <title>ket qua</title>
 </head>
 <body>
-<p>ket qua la: <c:out value="${sessionScope.get(fullName)}"/></p>
+<p>ket qua la: ${nameT}</p>
 </body>
 </html>
