@@ -10,8 +10,9 @@
 <html>
 <head>
     <title>ket qua</title>
+
 </head>
 <body>
-<p>ket qua la: ${nameT}</p>
+<p>ketqua: ${result} </p>
 </body>
 </html>

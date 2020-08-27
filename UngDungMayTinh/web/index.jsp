@@ -11,7 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-    <form action="calculate.jsp" method="post">
+    <form action="calculate" method="post">
       <input type="number" id="a" name="a">
       <select name="operand">
         <option>+</option>
