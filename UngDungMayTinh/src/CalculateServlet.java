@@ -4,12 +4,14 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.beans.Statement;
 import java.io.IOException;
 import java.io.*;
 import java.util.Arrays;
 import java.util.List;
 import javax.servlet.*;
 import javax.servlet.http.*;
+
 
 @WebServlet(name = "CalculateServlet", urlPatterns = "/calculate")
 public class CalculateServlet extends HttpServlet {
@@ -21,6 +23,7 @@ public class CalculateServlet extends HttpServlet {
         request.setAttribute("result", result);
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("calculate.jsp");
         requestDispatcher.forward(request, response);
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -13,6 +13,6 @@
 
 </head>
 <body>
-<p>ketqua: ${result} </p>
+<p>ketqua:<c:out value="${result}"/>  </p>
 </body>
 </html>
